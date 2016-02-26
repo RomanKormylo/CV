@@ -1,0 +1,26 @@
+#skills>div{
+    border:solid yellow 1px;
+
+}
+#barhtml{
+    background-color: orangered;
+}
+#barjs{
+    background-color: orange;
+}
+#insskills{
+    text-align: right;
+    font-family:"Bangers";
+    font-size: 42px;
+}
+.col-sm-5{
+    padding-left:3%;
+}
+.col-sm-4>li{
+    list-style-image: url('105.png');
+    font-size: 18px;
+}
+#skill{
+    padding-top: 0;
+    padding-bottom:4%;
+}

@@ -1,0 +1,13 @@
+#infeducation{
+    text-align:center;
+}
+#education>div{
+    border:solid purple 1px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#education{
+    padding-bottom:4%;
+}

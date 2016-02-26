@@ -1,0 +1,23 @@
+.navbar{
+    background: #e6ac00;
+    background: -webkit-radial-gradient(black,#e6ac00);
+    background: -o-radial-gradient(black,#e6ac00);
+    background: -moz-radial-gradient(black,#e6ac00);
+    background: radial-gradient(black,#e6ac00);
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 1px 2px black;
+}
+
+
+.navno{
+    border-left: solid black 1px;
+    font-family:"Black Ops One";
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#logo{
+    font-family:"Black Ops One";
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}

@@ -1,0 +1,23 @@
+#work{
+background-color:goldenrod;
+    padding-bottom: 20%;
+}
+.workplace{
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-right:2%;
+    background-color: indianred;
+    width:25%;
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+}
+.responsibility{
+    border:solid red 1px;
+    font-size:21px;
+    line-height: 140%;
+    padding-right:8%;
+    margin-top: 2%;
+    margin-left: 6%;
+    width: 58%;
+    background-color: silver;
+}

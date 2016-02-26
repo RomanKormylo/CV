@@ -1,0 +1,30 @@
+#general>div{
+display: inline-block;
+}
+#insgeneral{
+    margin-left: 13%;
+    margin-right: 7%;
+    border:solid yellow 1px;
+}
+#insgeneral>ul{
+    list-style-type: none;
+}
+#general>h2{
+    display:flex;
+    justify-content: center;
+    margin: 0 25% 0 30%;
+    padding-right: 25%;
+    font-family:'Indie Flower';
+}
+.info{
+    font-family:'Indie Flower';
+    font-size: 32px;
+}
+#photo{
+width: 19%;
+margin-top: 10%;
+    margin-left: 2%;
+}
+#general{
+    padding-bottom: 10%;
+}
