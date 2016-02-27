@@ -4,7 +4,6 @@ display: inline-block;
 #insgeneral{
     margin-left: 13%;
     margin-right: 7%;
-    border:solid yellow 1px;
 }
 #insgeneral>ul{
     list-style-type: none;

@@ -38,10 +38,6 @@ div#twobutton:nth-child(2){
     padding-left: 3%;
     word-spacing: 75px;
 }
-#mainbox{
-    border:solid black 2px;
-}
 #mainbox>div{
-    border:solid blue 2px;
     padding-top: 4%;
 }
