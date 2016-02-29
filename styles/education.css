@@ -10,4 +10,8 @@
 }
 #education{
     padding-bottom:4%;
+    background-color: white;
+}
+#education>h2{
+    padding-bottom: 5%;
 }

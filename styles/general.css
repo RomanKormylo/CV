@@ -2,11 +2,16 @@
 display: inline-block;
 }
 #insgeneral{
-    margin-left: 13%;
+    margin-left: 11%;
     margin-right: 7%;
+    padding-bottom: 6%;
+    padding-right: 7%;
+    -webkit-animation:anim 3s;
+    background-color: #48C69D;
 }
 #insgeneral>ul{
     list-style-type: none;
+    line-height: 450%;
 }
 #general>h2{
     display:flex;
@@ -14,6 +19,8 @@ display: inline-block;
     margin: 0 25% 0 30%;
     padding-right: 25%;
     font-family:'Indie Flower';
+    color: #48C69D;
+    font-size: 32px;
 }
 .info{
     font-family:'Indie Flower';
@@ -22,8 +29,9 @@ display: inline-block;
 #photo{
 width: 19%;
 margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 #general{
     padding-bottom: 10%;
+    background-color:#D25C21;
 }

@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/body.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/body.css">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/general.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/skills.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/education.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/work.css">
-    <link rel = "stylesheet" type = "text/css" href = "styles/hobbies.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/general.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/skills.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/education.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/work.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/hobbies.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/media.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/animation.css">
     <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="loader.js"></script>
 </head>
 <body>
+    <div class="loader"></div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -25,11 +33,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a id="logo" class="navbar-brand" href="#">Roman Kormylo</a>
+            <a id="logo" class="navbar-brand" href="#home">Roman Kormylo</a>
+            <a id="clock" class="navbar-brand" href="#"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="navno"><a href="#">Home</a></li>
                 <li class="navno"><a href="#general">General</a></li>
                 <li class="navno"><a href="#skill">Skills</a></li>
                 <li class="navno"><a href="#education">Education</a></li>
@@ -40,38 +48,35 @@
         </div>
 </nav>
 <section id="home">
-<!--<video muted loop="loop" autoplay="autoplay">
-    <source src="midnight.ogv" type='video/ogg; codecs="theora, vorbis"'/>
-    <source src="midnight.webm" type='video/webm' >
-    <source src="midnight.mp4" type='video/mp4'>
+<video muted loop="loop" autoplay="autoplay">
+    <source src="video/midnight.ogv" type='video/ogg; codecs="theora, vorbis"'/>
+    <source src="video/midnight.webm" type='video/webm' >
+    <source src="video/midnight.mp4" type='video/mp4'>
     <p>Video is not visible, most likely your browser does not support HTML5 video</p>
-</video>-->
-    <div class="buttons">
+</video>
+    <div id="buttons">
         <h2>Hi and Welcome!</h2>
         <div id="mainbutton">
-    <button>Read More</button>
+    <button><a class="button" href="#general">Read More</a></button>
             </div>
         </div>
 </section>
 <div id="mainbox">
 <!-- Bootstrap temporary, could be changed-->
-<div id = "general">
+    <div id = "general">
     <h2>General Information </h2>
-    <div id = 'photo'><img src="images/photo 5mod.png" alt="My Photo"></div>
-    <div id="insgeneral">
-        <ul>
+    <div id = 'photo' class="animation elementhide"><img src="images/photo%205mod.png" alt="My Photo"></div>
+    <div id="insgeneral" class="animation elementhide">
+        <ul id="animated">
         <li class="info">
             <strong>Date of Birthday</strong> : 1<sup>st</sup> of June 1992;
         </li>
-        <br>
         <li class="info">
             <strong>Languages</strong> : English,Ukrainian.
         </li>
-        <br>
         <li class="info">
             <strong>Nationality</strong> : Ukrainian.
         </li>
-        <br>
         <li class="info">
             <strong>Place of Residence</strong> : Lviv,Ukrain.
         </li>
@@ -88,25 +93,24 @@
               S</h2></div>
         <div>
             <div class="col-sm-1"> </div>
-            <ul class="col-sm-4">
-                <h3>General skills</h3>
+            <ul class="col-sm-4 hideit">
+                <h2>General</h2>
                 <li>Communication;</li>
                 <li>Analytical thinking - Gather information systematically to establish facts & principles</li>
                 <li>Flexible team player - working confidently within a group</li>
                 <li>Highly adaptable to changing conditions and work assignments</li>
                 <li>Accepting and learning from constructive criticism</li>
-                <li>Professionalism - acting in a responsible and fair manner in all your personal and work activities</li>
+                <li>Professionalism - acting in a responsible and fair manner in all personal and work activities</li>
                 <li>Willingness to Learn;</li>
                 <li>Cultural sensitivity and an ability to cooperate with a diverse workforce in multicultural settings</li>
                 <li>Clear understanding of market demand and supply;</li>
                 <li>Advanced knowledge of Microsoft Office;</li>
                 <li>Advanced knowledge of PC's Hardware;</li>
                 <li>Knowledge of statistic program(eviews);</li>
-
             </ul>
         </div>
         <div class="col-sm-1"> </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 hideit">
             <h3>Front-End</h3>
             <img src="images/html5.png" alt="HTML 5 Logo">
             <div class="progress">
@@ -208,19 +212,30 @@
         <div></div>
     </div>
     <div id = "hobbies">
-        <header id="infhobbies">
-        </header>
-        <figure>
-            <img src="" alt="Picture">Music
-            <img src="" alt="Picture">Gadgets
-            <img src="" alt="Picture">IT-technology
-            <img src="" alt="Picture">
-        </figure>
-    </div>
+        <h2 id="infhobbies">
+            Some intresting information
+        </h2>
+            <div class="hobiimg"><img src="images/metallica.jpg" alt="Picture">
+            <p>Music</p>
+            </div>
+            <div class="hobiimg"><img src="images/it.jpg" alt="Picture">
+            <p>Gadgets</p>
+                </div>
+            <div class="hobiimg"><img src="images/tech.jpg" alt="Picture">
+            <p>IT-Technology</p>
+                </div>
+        </div>
 </div>
-<footer> COPYRIGHT</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<div id="footer"> <p>COPYRIGHT By Roman Kormylo .2016</p>
+    <img src="images/facebook.svg" alt = "Link to facebook">
+    <img src="images/skype.svg" alt = "Link to skype">
+    <img src="images/github.svg" alt = "Link to github">
+</div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src = "js/scroll.js"></script>
+<script src ="js/scroll.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/animationright.js"></script>
+<script src="js/animationhide.js"></script>
 </body>
 </html>

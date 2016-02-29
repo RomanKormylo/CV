@@ -1,12 +1,13 @@
 #work{
-background-color:goldenrod;
+background-color:#FF8E00;
     padding-bottom: 20%;
+    color: white;
 }
 .workplace{
     margin-top: 4%;
     margin-left: 6%;
     margin-right:2%;
-    background-color: indianred;
+    background-color: #FFC173;
     width:25%;
     text-align: center;
     padding: 1% 1% 1% 1%;
@@ -18,5 +19,5 @@ background-color:goldenrod;
     margin-top: 2%;
     margin-left: 6%;
     width: 58%;
-    background-color: silver;
+    background-color: #3E97D1;
 }

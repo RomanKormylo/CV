@@ -1,3 +1,7 @@
+#skills>div{
+    border:solid yellow 1px;
+
+}
 #barhtml{
     background-color: orangered;
 }
@@ -5,18 +9,26 @@
     background-color: orange;
 }
 #insskills{
-    text-align: right;
-    font-family:"Bangers";
+    text-align: center;
+    font-family:"Lobster";
     font-size: 42px;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background-color:#BFBFBF;
 }
 .col-sm-5{
     padding-left:3%;
 }
 .col-sm-4>li{
-    list-style-image: url('105.png');
+    list-style-image: url('');
     font-size: 18px;
 }
 #skill{
     padding-top: 0;
     padding-bottom:4%;
+    background-color:#FFFFFF;
+}
+.hideit
+{
+    opacity:0;
 }

@@ -1,0 +1,36 @@
+@media all and (max-width: 450px){
+ #insgeneral{
+     margin-left: -5px;
+     margin-right: 0;
+     padding-bottom: 0;
+     padding-right: 5px;
+ }
+    .info{
+       font-size: 21px;
+        line-height: 450%;
+    }
+    #home{
+        padding-top: 75px;
+    }
+    #buttons{
+        padding-top: 155px;
+        padding-bottom: 200px;
+        padding-right: 75px;
+    }
+}
+@media all and (max-width: 450px){
+    .hobiimg{
+        display:block;
+    }
+    #images{
+        display: block;
+    }
+}
+@media all and (max-width: 960px){
+    .hobiimg{
+        display:block;
+    }
+    #images{
+        display: block;
+    }
+}
