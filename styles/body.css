@@ -58,7 +58,7 @@ video {
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('logo1.svg') 50% 50% no-repeat rgb(249,249,249);
+    background: url('logo.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 #footer{
     color:white;
