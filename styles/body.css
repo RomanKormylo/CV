@@ -32,9 +32,9 @@ video {
 #mainbutton>button{
     font-size: 140%;
     border-radius: 15%;
-    box-shadow: 3px 3px cornflowerblue;
+    -box-shadow: 3px 3px cornflowerblue;
     text-decoration: none;
-    background-color: #F77000;
+    -background-color: #F77000;
 }
 .button:hover,.button:active,.button:visited,.button:link{
     text-decoration:none;
