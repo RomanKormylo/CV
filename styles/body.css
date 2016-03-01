@@ -26,17 +26,10 @@ video {
 }
 #mainbutton{
     display: flex;
-    padding-left: 50%;
+    padding-left: 45%;
     text-decoration: none;
 }
-#mainbutton>button{
-    font-size: 140%;
-    border-radius: 15%;
-    -box-shadow: 3px 3px cornflowerblue;
-    text-decoration: none;
-    -background-color: #F77000;
-}
-.button:hover,.button:active,.button:visited,.button:link{
+.button>a:hover,.button>a:active,.button>a:visited,.button>a:link{
     text-decoration:none;
 }
 #mainbox{
@@ -78,3 +71,4 @@ footer>img{
 html {
     overflow-x: hidden;
 }
+
