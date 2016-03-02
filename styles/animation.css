@@ -6,10 +6,19 @@
     visibility: visible;
     animation-name: slideRight;
     -webkit-animation-name: slideRight;
+    -o-animation-name: slideRight;
+    -moz-animation-name: slideRight;
+    -ms-animation-name: slideRight;
     animation-duration: 1.5s;
     -webkit-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
 }
 @keyframes slideRight {
     0% {
@@ -29,25 +38,5 @@
     }
     100% {
         transform: translateX(0%);
-    }
-}
-@-webkit-keyframes slideRight {
-    0% {
-        -webkit-transform: translateX(-150%);
-    }
-    50% {
-        -webkit-transform: translateX(8%);
-    }
-    65% {
-        -webkit-transform: translateX(-4%);
-    }
-    80% {
-        -webkit-transform: translateX(4%);
-    }
-    95% {
-        -webkit-transform: translateX(-2%);
-    }
-    100% {
-        -webkit-transform: translateX(0%);
     }
 }

@@ -8,6 +8,9 @@ video {
     height: auto;
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     /*background: url() no-repeat;*/
     background-size: cover;
@@ -22,7 +25,8 @@ video {
     color:white;
     display:flex;
     padding-top: 23%;
-    padding-left: 45%;
+    padding-left: 28%;
+    font-family:Cinzel;
 }
 #mainbutton{
     display: flex;
@@ -55,7 +59,7 @@ video {
 }
 #footer{
     color:white;
-    background-color:#e6ac00;
+    background-color:#9C7B15;
     right: 0;
     bottom: 0;
     left: 0;

@@ -7,7 +7,7 @@
     padding-bottom: 6%;
     padding-right: 7%;
     -webkit-animation:anim 3s;
-    background-color:#48C69D;
+    background-color:#b48604;
 }
 #insgeneral>ul{
     list-style-type: none;
@@ -18,9 +18,11 @@
     justify-content: center;
     margin: 0 25% 0 30%;
     padding-right: 25%;
-    font-family:'Indie Flower';
+    font-family:'Cinzel:900';
     color: #48C69D;
-    font-size: 32px;
+    font-size: 36px;
+    color:#695108;
+    
 }
 .info{
     font-family:'Indie Flower';
@@ -34,4 +36,5 @@
 #general{
     padding-bottom: 10%;
     background-color:white;
-}
+    background-image:url('kni.jpg');
+    }
