@@ -1,6 +1,17 @@
 #contact{
-    background-color:white;
+     background-color:white;
 }
 #form{
-   font-family:;
+   font-family:Tangerine;
+   font-size:26px;
+   text-align:center;
+}
+#outform{
+    font-family:Tangerine;
+    font-size:36px;
+}
+input{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }

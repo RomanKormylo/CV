@@ -2,7 +2,7 @@ video {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 90%;
+    min-width: 100%;
     min-height: 80%;
     width: auto;
     height: auto;
@@ -59,14 +59,14 @@ video {
 }
 #footer{
     color:white;
-    background-color:#9C7B15;
+    background-color:#33242D;
     right: 0;
     bottom: 0;
     left: 0;
 }
 #footer>p{
     float:right;
-    color: black;
+    color: white;
 }
 footer>img{
     display:inline-flex;
