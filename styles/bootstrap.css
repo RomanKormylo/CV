@@ -1,9 +1,9 @@
 .navbar{
-    background: #e6ac00;
-    background: -webkit-radial-gradient(black,#e6ac00);
-    background: -o-radial-gradient(black,#e6ac00);
-    background: -moz-radial-gradient(black,#e6ac00);
-    background: radial-gradient(black,#e6ac00);
+    background: #33242D;
+    -background: -webkit-radial-gradient(black,#e6ac00);
+    -background: -o-radial-gradient(black,#e6ac00);
+    -background: -moz-radial-gradient(black,#e6ac00);
+    -background: radial-gradient(black,#e6ac00);
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
     box-shadow: 1px 2px black;
