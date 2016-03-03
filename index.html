@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/body.css">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/general.css">
@@ -62,7 +63,7 @@
     <p>Video is not visible, most likely your browser does not support HTML5 video</p>
 </video>
     <div id="buttons">
-        <h2>Hello and Welcome to my personal website!</h2>
+        <h2>Hello and Welcome to my website!</h2>
         <div id="mainbutton">
     <div class="button"><a href="#general">Read More</a>
     </div>
@@ -127,14 +128,14 @@
                     80%
                 </div>
             </div>
-            <img src="images/css3.png" alt="CSS 3 Logo">
+            <img src="images/css3.png" alt="CSS 3 Logo" width="128" height="128">
             <div class="progress">
                 <div id="barcss" class="progress-bar progress-bar-striped active" role="progressbar"
                      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
                     60%
                 </div>
             </div>
-            <img src="images/js.png" alt="Javascript Logo">
+            <img src="images/js.png" alt="Javascript Logo" width="165" height="128">
             <div class="progress">
                 <div id="barjs" class="progress-bar progress-bar-striped active" role="progressbar"
                      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
@@ -187,7 +188,7 @@
     </div>
     <div id = "work">
         <div class = "row">
-        <div class="workplace col-sm-3"><p>JFK<br>
+        <div class="workplace col-sm-3 jumpup"><p>JFK<br>
             Lviv,Ukraine<br>
             Market Research assistant<br>
             from July 2012 to February 2013
@@ -203,7 +204,7 @@
         </div>
             </div>
         <div class="row">
-        <div class="workplace col-sm-3"><p>JED ltd London,UK<br>
+        <div class="workplace col-sm-3 jumpup"><p>JED ltd London,UK<br>
             London,UK<br>
             International Education Programs Manager<br>
             from August 2015 to now</p>
@@ -234,16 +235,41 @@
                 <div class="information"><p>IT</p></div>
         </div>
 </div>
+<div id="accordion">
+  <h3>Contact Form</h3>
+  <div id="form">
+      <form>
+          First name:<br>
+          <input type="text" name="firstname"><br>
+          Last name:<br>
+          <input type="text" name="lastname"><br>
+          E-mail:<br>
+          <input type="email" name="email"><br>
+          Please select your gender:<br>
+          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+          <br>
+          If you have any comments please do not hesitate to contact me:<br>
+          <textarea name="message" rows="10" cols="30"></textarea>
+          <br>
+          <input type="submit" name="submit">
+          <input type="reset" name="reset">
+          </form>
+  </div>
+  </div>
 <div id="footer">
      <p>COPYRIGHT By Roman Kormylo.2016</p>
     <img src="images/facebook.svg" alt = "Link to facebook">
     <img src="images/skype.svg" alt = "Link to skype">
     <img src="images/github.svg" alt = "Link to github">
 </div>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src ="js/scroll.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/animationright.js"></script>
-    <script src="js/animationhide.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src ="js/scroll.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/animationright.js"></script>
+  <script src="js/animationhide.js"></script>
+  <script src="js/jqueryui.js"></script>
 </body>
 </html>

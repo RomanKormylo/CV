@@ -40,7 +40,8 @@
 @media all and (max-width: 500px){
   .button>a{
     font-size:12px;
-    width:75px;
+    width:120px;
+    margin-left:-25px;
   }
   #buttons>h2{
     text-align:center;
@@ -49,7 +50,7 @@
 @media all and (max-width: 760px){
   .button>a{
     font-size:12px;
-    width:75px;
+    width:120px;
   }
   #buttons{
         padding-bottom: 45%;
