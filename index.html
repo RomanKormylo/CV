@@ -16,6 +16,7 @@
     <link rel ="stylesheet" type = "text/css" href = "styles/media.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/animation.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/button.css">
+     <link rel ="stylesheet" type = "text/css" href = "styles/form.css">
     <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
@@ -234,9 +235,9 @@
                 </div>
                 <div class="information"><p>IT</p></div>
         </div>
-</div>
-<div id="accordion">
-  <h3>Contact Form</h3>
+    <div id="contact">
+         <div id="accordion">
+  <h3 id="outform">Contact Form</h3>
   <div id="form">
       <form>
           First name:<br>
@@ -244,7 +245,7 @@
           Last name:<br>
           <input type="text" name="lastname"><br>
           E-mail:<br>
-          <input type="email" name="email"><br>
+          <input type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required><br>
           Please select your gender:<br>
           <input type="radio" name="gender" value="male">Male
           <input type="radio" name="gender" value="female">Female
@@ -258,6 +259,9 @@
           </form>
   </div>
   </div>
+        </div>     
+</div>
+
 <div id="footer">
      <p>COPYRIGHT By Roman Kormylo.2016</p>
     <img src="images/facebook.svg" alt = "Link to facebook">
