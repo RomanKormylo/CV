@@ -18,6 +18,7 @@
     <link rel ="stylesheet" type = "text/css" href = "styles/button.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/form.css">
     <link rel ="stylesheet" type = "text/css" href = "styles/lastanimation.css">
+    <link rel ="stylesheet" type = "text/css" href = "styles/animationzoom.css">
     <link href='https://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Indie+Flower' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
@@ -193,7 +194,7 @@
     </div>
     <div id = "work">
         <div class = "row">
-        <div class="workplace col-sm-3 "><p>JFK<br>
+        <div class="workplace col-sm-3 zoomout elementhide"><p>JFK<br>
             Lviv,Ukraine<br>
             Market Research assistant<br>
             from July 2012 to February 2013
@@ -209,7 +210,7 @@
         </div>
             </div>
         <div class="row">
-        <div class="workplace col-sm-3"><p>JED ltd London,UK<br>
+        <div class="workplace col-sm-3 zoomout elementhide"><p>JED ltd London,UK<br>
             London,UK<br>
             International Education Programs Manager<br>
             from August 2015 to now</p>
@@ -245,9 +246,9 @@
   <div id="form">
       <form>
           First name:<br>
-          <input type="text" name="firstname"><br>
+          <input type="text" name="firstname" required><br>
           Last name:<br>
-          <input type="text" name="lastname"><br>
+          <input type="text" name="lastname" required><br>
           E-mail:<br>
           <input type="email" name="email" required><br>
           Please select your gender:<br>
@@ -256,7 +257,7 @@
           <input type="radio" name="gender" value="other">Other
           <br>
           If you have any comments please do not hesitate to contact me:<br>
-          <textarea name="message" rows="10" cols="30"></textarea>
+          <textarea name="message" rows="10" cols="30" required></textarea>
           <br>
           <input class="buttons" type="submit" name="submit">
           <input class="buttons" type="reset" name="reset">
@@ -270,7 +271,7 @@
      <p>COPYRIGHT By Roman Kormylo.2016</p>
     <a href=""><img src="images/facebook.svg" alt = "Link to facebook"></a>
     <a href=""><img src="images/skype.svg" alt = "Link to skype"></a>
-    <a href=""><img src="images/github.svg" alt = "Link to github"></a>
+    <a href=""><img src="images/git.png" alt = "Link to github" width="26" height="26"></a>
 </div>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -281,5 +282,6 @@
   <script src="js/jqueryui.js"></script>
   <script src="js/collaps.js"></script>
   <script src="js/animationlast.js"></script>
+  <script src="js/zoomoutanim.js"></script>
 </body>
 </html>

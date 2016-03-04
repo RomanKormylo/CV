@@ -15,7 +15,5 @@ input{
     -moz-border-radius: 10px;
     border-radius: 10px;
     text-decoration:none;
-}
-input:hover,input:active{
-     text-decoration:none;
+    outline:0;
 }
