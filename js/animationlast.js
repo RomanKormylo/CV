@@ -4,9 +4,9 @@ $(window).scroll(function () {
         var imageHeight = $(this).height();
         var topOfWindow = $(window).scrollTop();
         if (imagePosition < topOfWindow + imageHeight && imagePosition + imageHeight > topOfWindow) {
-            $(this).addClass("slideLeft");
+            $(this).addClass("slidein");
         } else {
-            $(this).removeClass("slideLeft");
+            $(this).removeClass("slidein");
         }
     });
 });
