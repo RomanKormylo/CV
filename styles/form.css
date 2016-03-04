@@ -14,4 +14,8 @@ input{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    text-decoration:none;
+}
+input:hover,input:active{
+     text-decoration:none;
 }

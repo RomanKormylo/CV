@@ -1,9 +1,12 @@
-$(document).ready(function(){
-    $(window).scroll(function(event){
-        var y = $(this).scrollTop();
-        if (y >= 300){
-            $('photo').addClass('animate');
+$(window).scroll(function () {
+    $('.animation').each(function () {
+        var imagePosition = $(this).offset().top;
+        var imageHeight = $(this).height();
+        var topOfWindow = $(window).scrollTop();
+        if (imagePosition < topOfWindow + imageHeight && imagePosition + imageHeight > topOfWindow) {
+            $(this).addClass("slideRight");
+        } else {
+            $(this).removeClass("slideRight");
         }
     });
-    
 });

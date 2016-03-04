@@ -1,12 +1,13 @@
-$(window).scroll(function () {
-    $('.animlast').each(function () {
-        var imagePosition = $(this).offset().top;
-        var imageHeight = $(this).height();
-        var topOfWindow = $(window).scrollTop();
-        if (imagePosition < topOfWindow + imageHeight && imagePosition + imageHeight > topOfWindow) {
-            $(this).addClass("slidein");
+$(document).ready(function() { 
+   $(window).scroll(function () {
+      $('.jumpin').each(function () {
+       var bottomobject = $(this).offset().top + $(this).outerHeight();
+        var bottomwindow = $(window).scrollTop() + $(window).height()*1.1;
+        if (bottomwindow > bottomobject && bottomobject < bottomwindow) {
+            $(this).addClass("rollIn");
         } else {
-            $(this).removeClass("slidein");
+            $(this).removeClass("rollIn");
         }
     });
+});
 });
