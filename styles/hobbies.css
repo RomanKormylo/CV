@@ -9,7 +9,7 @@
     margin-left: 15%;
     margin-top: 10%;
 }
-.hobiimg>img {
+.hobiimg>img{
      -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
        -o-transition: all 0.5s ease;
@@ -33,4 +33,9 @@
 #infhobbies{
     font-family: Bangers;
     margin-left: 5%;
+}
+.information>a{
+    text-decoration: none;
+    font-family: "Permanent Marker";
+    color:#33242D;
 }
