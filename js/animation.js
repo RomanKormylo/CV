@@ -1,12 +1,9 @@
-$(window).scroll(function () {
-    $('.animation').each(function () {
-        var imagePosition = $(this).offset().top;
-        var imageHeight = $(this).height();
-        var topOfWindow = $(window).scrollTop();
-        if (imagePosition < topOfWindow + imageHeight && imagePosition + imageHeight > topOfWindow) {
-            $(this).addClass("slideRight");
-        } else {
-            $(this).removeClass("slideRight");
-        }
-    });
+$(document).ready(function() {
+$(".mainbox").onepage_scroll({
+   sectionContainer: "div", 
+   easing: "ease",
+   animationTime: 1000,
+   pagination: true,
+   updateURL: false
+});
 });

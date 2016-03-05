@@ -71,7 +71,12 @@ video {
 footer>img{
     display: inline-flex;
     width: 6px;
+    position: relative;
 }
 html {
     overflow-x: hidden;
+}
+#footer>a{
+    position: relative;
+ 
 }
