@@ -1,5 +1,5 @@
 #skills>div{
-color:#C4C4C4;
+color: #C4C4C4;
 }
 #barhtml{
     background-color: orangered;
@@ -13,23 +13,23 @@ color:#C4C4C4;
     font-size: 42px;
     padding-top: 30%;
     padding-bottom: 30%;
-    color:white;
+    color: white;
 }
 .col-sm-5{
-    padding-left:3%;
+    padding-left: 3%;
     
 }
 .col-sm-4>li{
     list-style-image: url('');
     font-size: 18px;
-    color:#C4C4C4;
+    color: #C4C4C4;
 }
 #skill{
     padding-top: 0;
-    padding-bottom:4%;
-    background-color:#33242D;
+    padding-bottom: 4%;
+    background-color: #33242D;
 }
 .hideit
 {
-    opacity:0;
+    opacity: 0;
 }

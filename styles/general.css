@@ -7,7 +7,7 @@
     padding-bottom: 6%;
     padding-right: 7%;
     -webkit-animation:anim 3s;
-    background-color:#458F99;
+    background-color: #458F99;
 }
 #insgeneral>ul{
     list-style-type: none;
@@ -18,14 +18,14 @@
     justify-content: center;
     margin: 0 25% 0 30%;
     padding-right: 25%;
-    font-family:'Cinzel:900';
+    font-family: 'Cinzel:900';
     color: #48C69D;
     font-size: 36px;
-    color:#695108;
+    color: #695108;
     
 }
 .info{
-    font-family:'Indie Flower';
+    font-family: 'Indie Flower';
     font-size: 32px;
 }
 #photo{
@@ -35,6 +35,6 @@
 }
 #general{
     padding-bottom: 10%;
-    background-color:white;
-    background-color:#A6DEE0;
+    background-color: white;
+    background-color: #A6DEE0;
     }

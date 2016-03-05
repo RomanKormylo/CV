@@ -1,19 +1,55 @@
 #contact{
-     background-color:white;
+     background-color: #DDF2F2;
+     width: 100%;
 }
 #form{
-   font-family:Tangerine;
-   font-size:26px;
-   text-align:center;
+   font-family: Tangerine;
+   font-size: 26px;
+   text-align: center;
+   width: 100%;
+   padding-bottom: 5%;
+   overflow-y: hidden;
 }
 #outform{
-    font-family:Tangerine;
-    font-size:36px;
+    font-family: Tangerine;
+    font-size: 36px;
 }
 input{
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
-    text-decoration:none;
-    outline:0;
+    text-decoration: none;
+    outline: 0;
+}
+@media all and (max-width: 500px){
+  #contact{
+     background-color: #DDF2F2;
+}
+#form{
+   font-family:Tangerine;
+   font-size: 22px;
+   float: left;
+   margin-right: 45px;
+}
+#outform{
+    font-family: Tangerine;
+    font-size: 20px;
+}
+input{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: 0;
+}
+}
+@media all and (max-width: 400px){
+    #form{
+   font-family: Tangerine;
+   font-size: 16px;
+}
+#outform{
+    font-family: Tangerine;
+    font-size: 24px;
+}
 }

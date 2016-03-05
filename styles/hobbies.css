@@ -1,12 +1,13 @@
 #hobbies{
-    background-color:white;
-    width:100%;
+    background-color: #DDF2F2;
+    width: 100%;
     padding-top: 45%;
+    padding-bottom: 5%;
 }
 .hobiimg{
-    display:inline-flex;
-    margin-left:15%;
-    margin-top:10%;
+    display: inline-flex;
+    margin-left: 15%;
+    margin-top: 10%;
 }
 .hobiimg>img {
      -webkit-transition: all 0.5s ease;
@@ -24,8 +25,12 @@
           transform: rotate(360deg);
 }
 .information{
-    position:absolute;
-    margin-top:18%;
-    margin-left:-75px;
-    display:inline-flex;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: -75px;
+    display: inline-flex;
+}
+#infhobbies{
+    font-family: Bangers;
+    margin-left: 5%;
 }

@@ -35,8 +35,8 @@
 }
 
 .zoomRight {
-  visibility:visible;
+  visibility: visible;
   -webkit-animation-name: zoomRight;
   animation-name: zoomRight;
-  animation-duration:1s;
+  animation-duration: 1s;
 }

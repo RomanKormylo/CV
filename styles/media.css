@@ -17,6 +17,7 @@
         padding-bottom: 200px;
         padding-right: 75px;
     }
+    
 }
 @media all and (max-width: 450px){
     .hobiimg{
@@ -25,35 +26,47 @@
     #images{
         display: block;
     }
+    #footer{
+     padding-bottom: 4%;
+ }
+   #footer>p{
+       float: left;
+       padding-right: 1%;
+   }
+   .elementhide{
+   visibility: visible;
+   }
 }
 @media all and (max-width: 960px){
     .hobiimg{
-        display:block;
+        display: block;
     }
     #images{
         display: block;
     }
-    #buttons{
-        padding-bottom: 45%;
-    }
 }
 @media all and (max-width: 500px){
   .button>a{
-    font-size:12px;
-    width:120px;
-    margin-left:-25px;
+    font-size: 12px;
+    width: 120px;
+    margin-left: -25px;
   }
   #buttons>h2{
-    text-align:center;
+    text-align: center;
   }
-}
+  #footer>p{
+      margin-right: 65px;
+  }
+  .elementhide{
+       visibility: visible;
+   }
+ }
 @media all and (max-width: 760px){
   .button>a{
-    font-size:12px;
-    width:120px;
+    font-size: 12px;
+    width: 120px;
   }
-  #buttons{
-        padding-bottom: 45%;
+    #clock{
+        display: none;
     }
- 
 }

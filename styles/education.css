@@ -1,24 +1,24 @@
 #infeducation{
-    text-align:center;
+    text-align: center;
 }
 #education>div{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
-    border:solid #33242D 2px;
+    border: solid #33242D 2px;
 }
 #education{
-    padding-bottom:4%;
-     background-color:#DDF2F2;
+    padding-bottom: 4%;
+     background-color: #DDF2F2;
 }
 #education>h2{
     padding-bottom: 5%;
-    font-family:Luckiest Guy;
-    font-size:42px;
+    font-family: Luckiest Guy;
+    font-size: 42px;
 }
 .lca>p{
-    margin-left:4%;
+    margin-left: 4%;
 }
 .gro>img{
-    margin-left:-12px;
+    margin-left: -12px;
 }
