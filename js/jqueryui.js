@@ -2,7 +2,7 @@
     $( "#accordion" ).accordion({
       collapsible: true
     });
-    $( "#accordion" ).accordion(
-   { active: false }
-);
 });
+  /* $( "#accordion" ).accordion(
+   { active: false }
+);*/
